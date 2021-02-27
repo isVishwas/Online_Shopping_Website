@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+
+
+		*
+		{
+			margin:0;
+			padding:0;
+		}
+	nav
+	{
+		background-color:#16a085;
+		width:100%;
+		height:70px;
+		
+	}	
+
+nav ul
+{
+	list-style-type: none;
+	float:right;
+	margin-right:30px;
+}
+nav ul li
+{
+	width:150px;
+	height:50px;
+	float:left;
+	margin-left:50px;
+
+}
+
+nav ul ul
+{
+	display:none;
+}
+.hlo li input
+{
+	width:400px;
+		height: 40px;
+     box-sizing:border-box;
+     font-size:18px;
+     font-style:sans-serif;
+       font-weight: lighter;}
+
+	.hlo li
+	{
+		margin-top: 13px;
+
+	}
+
+
+	.list ul {
+  list-style: none;
+   
+  float:left;
+  margin-top: 10px;
+  margin-left: 80px;
+  background: #1bc2a2;
+}
+
+.list ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+.list li ul { display: none; }
+
+.list ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+
+}
+
+.list ul li a:hover { background: #2c3e50;color: white; }
+.list li:hover > ul {
+  display: block;
+  width:100%;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: -40px;
+}
+
+.list li:hover li { float:none; }
+
+.list li:hover a { background: #1bc2a2; }
+
+.list li:hover li a:hover { background: #2c3e50; }
+
+.list .main li ul li { border-top: 0; }
+
+ .list .main .css
+ {
+ 	margin-left:150px;
+ 	margin-top: -50px;
+ }
+ .list .main .service
+ {
+ 	margin-left:150px;
+ 	margin-top: -50px;
+
+ }
+ .list .main .service1
+ {
+ 	margin-top:-5px;
+ 	margin-left: -50px;
+ 	z-index: 1;
+ }
+ 
+	
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<nav>
+<ul>
+
+<div class='hlo'>
+<li><input type="text" spellcheck="false"></li>
+<li class='search'><i class="fa fa-search" style='margin-top: 10px;margin-left: 160px;'></i></li><button style='margin-left: 70px;margin-top: 16px;width:100px;height:35px;background-color: orange;border:2px solid orange'>Search</button><div></ul>
+
+	<div class='list'>
+		<ul class="main">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Health Products</a>
+    <ul>
+      <li><a href="#">Medical</a></li>
+      <li><a href="#">Cosmetic</a>
+      <li><a href="#">Pharmaceutical</a>
+      
+        <ul class='css'>
+          <li><a href="#">Chemical Drug</a></li>
+          <li><a href="#">Biological Drug</a></li>
+          <li><a href="#">Vaccines</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Complementary</a>
+        <ul class='service'>
+          <li><a href="#">Chinese</a></li>
+          <li><a href="#">Other Medicine</a></li>
+          <li><a href="#">Health Supplements</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href='#'>Service</a>
+  	<ul class='service1'>
+  		<li><a href='#'>Paid</a></li>
+  		<li><a href='#'>Free</a></li>
+  	</ul></li>
+  
+</ul>
+</nav>
+
+
+
+</body>
+</html>

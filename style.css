@@ -1,0 +1,1590 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body
+{
+	font-family: 'Comfortaa', cursive;
+}
+
+/*Header Start*/
+
+header>.mainnav 
+{
+display:flex;
+width:100%;
+height:70px;
+background-color: rgba(0,0,0,1);
+color:white;
+position:fixed;
+top:0;
+flex-wrap:wrap;
+z-index: 5;
+}
+
+
+/*animation line on nav*/
+
+.cool-link {
+    display:inline-block;
+    color:#000;
+    text-decoration:none;
+	}
+
+	.cool-link::after {
+    content: '';
+    display: block;
+    width:0;
+    height:2px;
+    background:white;
+	}
+
+	.cool-link:hover::after {
+    width:100%;
+    transition: width 1s;
+	}
+	.mainnav>.nav ul li a
+	{
+    color:white;
+	}
+
+/*Header start*/
+
+header>.mainnav>.h2
+{
+	display:flex;
+	width:20%;
+	font-size:2em;
+}
+header>.mainnav>.h2
+{
+float:left;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+header>.mainnav>.nav
+{
+	width:80%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+
+header>.mainnav>.nav>ul>li
+{
+	list-style-type:none;
+	float:left;
+	margin-left:100px;
+	display:flex;
+	font-size:16px;
+	letter-spacing:3px;
+	font-weight:bold;
+
+}
+.mainnav>h2:hover
+{
+	color:lightgreen;
+}
+.mainnav>.nav ul li a:hover
+{
+	color:lightgreen;
+}
+header>.img
+{
+display:flex;
+width:100%;
+margin-top:70px;
+height:500px;
+animation:venum 15s infinite linear;
+
+}
+
+
+/*Header Ends*/
+
+
+@keyframes venum
+{ 0%
+	{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+	}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+}
+
+/*Shoes start*/
+
+.afterhead h3
+{
+font-size:3em;
+margin:30px 0px 30px 0px;
+display:flex;
+justify-content:center;
+width:35%;
+height:70px;
+padding-bottom:50px;
+padding-top:10px;
+background-color:black;
+color:white;
+border-left: 5px solid #1C6EA4;
+border-right: 5px solid #1C6EA4;
+
+
+
+
+
+}
+.afterhead .shoes figure 
+{
+	
+	width:45%;
+	height:420px;
+
+	margin-bottom: 30px;
+	display:inline-block;
+	margin-left: 45px;
+	   box-shadow:0px 2px 5px 1px rgba(0,0,0,0.84);
+  
+  }
+
+
+      
+	.afterhead .shoes figure figcaption
+	{
+		
+		text-align:center;
+	}
+
+	.afterhead .shoes figure>figcaption>button
+	{
+		width:150px;
+		height:30px; 
+		color:white;
+		background-color:green;
+		font-size: 17px;
+		border:2px solid green;
+		margin-top: 10px;
+    border-radius: 12px;
+	}
+	.afterhead .shoes figure>figcaption>button:hover
+	{
+		color:white;
+		background-color: orange;
+		border:2px solid orange;
+		
+    }
+
+  #afterhead2 .shoes figure img
+  {
+    display:flex;
+    margin:0 auto;
+  } 
+
+
+   /*footer*/
+
+   footer
+	{
+		width:100%;
+		background-color:rgba(0,0,0,0.1);
+		height:100px;
+		margin-top:50px;
+	}
+
+	.quality > div
+	{
+		display:inline-block;
+		width:15%;
+				margin-top:20px;
+		margin-left:200px;
+		padding-bottom:15px;
+	}
+
+	.quality div > i
+	{
+		margin-left:50px;
+    font-size: 35px;
+	}
+	.bottom
+	{
+		background-color:#16a085;
+		width:100%;
+		height:400px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+   }
+   
+
+    footer .bottom #followus li
+    {
+    font-size:30px;
+    margin-top:10px;
+    }
+
+
+    .bottom .first li,h4
+    {
+   	list-style-type: none;
+   	margin-left:20px;
+   	line-height:30px;
+    }
+    .bottom .first h4
+     {
+    	margin-bottom:30px;
+     }
+
+   .bottom a
+   {
+     text-decoration:none;
+     color:white;
+   }
+
+   .bottom a:hover
+   {
+   	color:orange;
+   }
+
+
+
+
+  footer .footer2
+   {
+   	width:100%;
+   	height:65px;
+   	color:white;
+    background-color:rgba(0,0,0,1);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size: 28px;
+   }
+   
+
+   	 footer .footer2 i
+   	 {
+   	 
+   	 	font-size: 35px;
+   	 }
+
+   	 footer .footer2 i:hover
+   	 {
+   	 	color: orange;
+   	 }
+
+   	 /*********************/
+
+   	 /*******MEN************/
+   	 /*************************/
+
+   	 #main_men
+   	 {
+   	 	display: flex;
+   	 	flex-wrap:wrap;
+   	 	justify-content:space-around;
+   	 	margin-top:50px;
+   	 }
+
+     .menh3
+     {
+      font-size:28px;
+      text-align:center;
+      margin-top:50px;
+      border-bottom:5px solid #1C6EA4;
+
+      
+  
+     }
+
+
+
+   	 #main_men>div img
+   	 {
+   	 	width:300px;
+   	 	height:300px;
+   	 	margin-top:50px;
+   	 	margin-left: 50px;
+   	 }
+
+   	 #main_men>div img
+   	 {
+   	 	margin-bottom: 50px;
+   	 	box-shadow:0px 2px 5px 1px rgba(0,0,0,0.84);
+   	 }
+
+   	 #main_men > div>figure figcaption{
+   	 	text-align:center;
+   	 }
+
+   	 #main_men > div>figure figcaption button
+   	 {
+   	 	width:35%;
+   	 	height:35px;
+   	 	color:white;
+   	 	background-color: green;
+   	 	border:2px solid green;
+   	 	margin-top: 20px;
+   	 	font-size: 16px;
+       border-radius: 12px;
+   	 }
+
+      #main_men > div>figure figcaption button:hover
+      {
+        background-color: orange;
+        border:2px solid orange;
+      } 
+
+#menbanner
+{
+
+display:flex;
+margin-top:70px;
+width:100%;
+height:500px;
+animation:menbanner 15s infinite linear;
+}
+
+
+/*Header Ends*/
+
+
+@keyframes menbanner
+{ 
+0%
+{
+background-image: url('mensbanner/menban1.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+30%
+{
+background-image: url('mensbanner/menban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+
+}
+
+60%
+{
+background-image: url('mensbanner/menban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+
+}
+
+100%
+{
+background-image: url('mensbanner/menban4.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+}
+
+
+
+   	 /******************/
+   	 /********Women********/
+   	 /***********************/
+
+
+   	 #main_women
+   	 {
+   	 	display: flex;
+   	 	flex-wrap:wrap;
+   	 	justify-content:space-around;
+   	 	margin-top:50px;
+   	 }
+    
+    .womenh3
+    {
+      font-size: 28px;
+      text-align: center;
+      margin-top:50px;
+      border-bottom: 5px solid #1C6EA4;
+    }
+
+
+   	 #main_women>div img
+   	 {
+   	 	width:300px;
+   	 	height:300px;
+   	 	margin-top:50px;
+   	 	margin-left:50px;
+   	 }
+
+   	 #main_women>div img
+   	 {
+   	 	margin-bottom: 50px;
+   	 	box-shadow:0px 2px 5px 1px rgba(0,0,0,0.84);
+   	 }
+
+   	 #main_women > div>figure figcaption{
+   	 	text-align: center;
+   	 }
+
+   	 #main_women > div >figure figcaption button
+   	  {
+   	 	width:35%;
+   	 	height:35px;
+   	 	color:white;
+   	 	background-color: green;
+   	 	border:2px solid green;
+   	 	margin-top: 20px;
+   	 	font-size: 16px;
+      border-radius: 12px;
+   	  }
+
+      #main_women > div>figure figcaption button:hover
+      {
+        background-color: orange;
+        border:2px solid orange;
+      } 
+
+
+
+header #womenbanner
+{
+display:flex;
+width:100%;
+margin-top:70px;
+height:500px;
+animation:womenbanner 15s infinite linear;
+}
+
+
+/*Header Ends*/
+
+
+@keyframes womenbanner
+{ 
+0%
+{
+background-image:url('womensbanner/womenban2.jpg');
+background-repeat:no-repeat;
+background-size: 100% 100%;
+}
+30%
+{
+background-image:url('womensbanner/womenban1.webp');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+60%
+{
+background-image: url('womensbanner/womenban3.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+100%
+{
+background-image: url('womensbanner/womenban4.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+}
+
+
+/*form */
+
+
+
+.container {
+  background-color:rgba(58,63,68,0.5);
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  width:450px;
+  display:flex;  
+  flex-direction:column;
+  margin:0 auto;
+  margin-top:150px;
+  margin-bottom:80px;
+ }
+
+.logo{
+  font-size:30px;
+  color:white;
+  text-align: center;
+  padding: 20px 20px 0;
+  margin:0;
+}
+
+.login-item {
+  color: #ffff;
+  padding:25px 25px 0;
+  margin: 20px 20px 0;  
+  border-radius: 3px;
+}
+
+input {
+  border: 0;
+  color:inherit;
+  font:inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  transition:background-color .3s;
+  transition:background-color .3s;
+}
+
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+  width:100%;
+}
+
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  color: #3A3F44;  
+}
+
+.form-login label {
+  background-color: #222222;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.form-login input[type="text"], .form-login input[type="password"] {
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  border-top-left-radius:0;
+}
+.form-login input[type="text"]:focus, .form-login input[type="text"]:hover, .form-login input[type="password"]:focus, .form-login input[type="password"]:hover {
+  background-color: #eeeeee;
+}
+.form-login input[type="submit"] {
+  background-color: #e67e22/*#00B9BC*/;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-login input[type="submit"]:focus, .form-login input[type="submit"]:hover {
+  background-color: #d35400/*#197071*/;
+}
+.form-field {
+  display:flex;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact us*/
+
+#contact
+{
+width:100%;
+height:500px;
+}
+
+#contact img
+{
+  margin:0 auto;
+  margin-top:150px;
+  margin-bottom:200px;
+  display:flex;
+  justify-content:center;
+}
+
+#contact .main
+{
+  display:flex;
+  justify-content: space-around;
+  line-height:35px;
+}
+
+
+/*media query*/
+
+
+@media screen and (max-width:1366px)
+{
+.afterhead h3
+{
+font-size:2em;
+margin:20px 0px 30px 0px;
+width:30%;
+}
+
+}
+
+@media screen and (max-width:1320px)
+
+{
+.afterhead .shoes figure 
+{
+  height:420px;
+  width:50%;
+  margin-left:17%;
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:300px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+margin-top:30px;
+  }
+
+
+
+.afterhead h3
+{
+font-size:1.8em;
+margin:20px 0px 30px 0px;
+width:30%;
+
+}
+
+header>.mainnav>.h2
+{
+  padding-left:40px;
+}
+
+}
+
+@media screen and (max-width:1140px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:1.3em;
+   padding-left:30px;
+   margin-left: 20px;
+
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:70px;
+   font-size:16px;
+   letter-spacing:2px;
+}
+
+
+.afterhead h3
+{
+font-size:1.5em;
+margin:20px 0px 30px 0px;
+width:35%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+  
+ 
+  height:420px;
+  width:50%;
+  margin-left:17%;
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:300px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+margin-top:30px;
+  }
+
+ 
+
+ footer .bottom .first
+ {
+  font-size:14px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+font-size:20px;
+ }
+
+
+footer .quality>div
+{
+font-size:15px;
+margin-left: 150px;
+padding-bottom: 0px;
+
+}
+
+footer .quality div i
+{
+
+
+margin-left:-2px;
+}
+
+
+
+
+
+@media screen and (max-width:950px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:1.2em;
+   padding-left:20px;
+
+}
+header>.mainnav>.h2
+{
+  padding-left: 20px;
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:60px;
+   font-size:14px;
+   letter-spacing:1.3px;
+}
+
+
+.afterhead h3
+{
+font-size:1.3em;
+margin:20px 0px 30px 0px;
+width:40%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+  
+ /* margin-bottom:30px;
+  
+  margin-left:65px;*/
+  height:420px;
+  width:50%;
+  margin-left:17%;
+  
+
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:300px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+margin-top:30px;
+  }
+
+ 
+
+ footer .bottom .first
+ {
+  font-size:14px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+font-size:20px;
+ }
+
+
+footer .quality>div
+{
+font-size:15px;
+margin-left:130px;
+padding-bottom: 0px;
+
+}
+
+footer .quality div i
+{
+
+
+margin-left:-2px;
+}
+
+
+
+@keyframes venum
+{
+
+0%
+{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 85%;
+}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 85%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 85%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 85%;
+}
+}
+
+
+
+
+
+@media screen and (max-width:815px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:1.0em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:50px;
+   font-size:12px;
+   letter-spacing:1.2px;
+}
+
+
+.afterhead h3
+{
+font-size:1.2em;
+margin:-50px 0px 30px 0px;
+width:40%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+  
+
+  height:400px;
+  width:60%;
+  margin-left:17%;
+  
+
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:300px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+margin-top:30px;
+  }
+
+ 
+
+ footer .bottom .first
+ {
+  font-size:12px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+font-size:20px;
+ }
+
+
+footer .quality>div
+{
+font-size:15px;
+margin-left: 120px;
+
+}
+
+footer .quality div i
+{
+
+
+margin-left:-2px;
+}
+
+#contact .main  div
+{
+  font-size:15px;
+}
+
+
+
+
+
+@keyframes venum
+{
+
+0%
+{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 70%;
+}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 70%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 70%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 70%;
+}
+}
+
+
+
+
+@media screen and (max-width:700px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:1.0em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:40px;
+   font-size:12px;
+   letter-spacing:1.3px;
+}
+
+
+
+footer .quality div i
+{
+  font-size:25px;
+  margin-left:-0.5px;
+
+}
+
+footer .quality div
+{
+  margin-left: 90px;
+}
+
+footer .quality div p
+{
+  font-size:12px;
+}
+
+#contact .main  div
+{
+  font-size:14px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:660px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:0.9em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:30px;
+   font-size:12px;
+   letter-spacing:1.3px;
+}
+
+
+footer .quality div i
+{
+  font-size:25px;
+  margin-left:-0.5px;
+
+}
+
+footer .quality div
+{
+  margin-left: 90px;
+}
+
+footer .quality div p
+{
+  font-size:12px;
+}
+
+#contact .main  div
+{
+  font-size:13px;
+}
+
+
+
+
+
+@media screen and (max-width:620px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:0.9em;
+   padding-left:20px;
+
+}
+header>.mainnav>.nav>ul
+{
+  padding-left: 20px;
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:30px;
+   font-size:12px;
+   letter-spacing:1.3px;
+}
+
+#contact .main  div
+{
+  font-size:12px;
+}
+
+footer .quality div i
+{
+  font-size:25px;
+  margin-left:-0.5px;
+
+}
+
+footer .quality div
+{
+  margin-left: 90px;
+}
+
+footer .quality div p
+{
+  font-size:12px;
+}
+
+
+.afterhead h3
+{
+font-size:1.4em;
+margin:-150px 0px 30px 0px;
+width:50%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+ 
+  width:70%;
+  height:300px;
+
+  margin-bottom:30px;
+  
+  margin-left:80px;
+  
+
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:200px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+  margin-top:30px;
+  }
+
+ 
+
+ footer .bottom .first
+ {
+  font-size:12px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+font-size:20px;
+ }
+
+@keyframes venum
+{
+
+0%
+{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+}
+
+
+
+
+
+@media screen and (max-width:585px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:0.7em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:20px;
+   font-size:12px;
+   letter-spacing:1.0px;
+}
+
+#contact .main  div
+{
+  font-size:11px;
+}
+
+
+
+
+@media screen and (max-width:536px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:0.7em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul
+{
+  padding-left: 20px;
+}
+
+header>.mainnav>.nav>ul>li
+{
+   margin-left:20px;
+   font-size:12px;
+   letter-spacing:1.0px;
+}
+
+#contact .main  div
+{
+  font-size:10px;
+}
+
+.afterhead h3
+{
+font-size:1.4em;
+margin:-150px 0px 30px 0px;
+width:50%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+
+  width:70%;
+  height:300px;
+  
+  margin-bottom:30px;
+  
+  margin-left:80px;
+  
+
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:200px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+
+margin-top:30px;
+  }
+
+ 
+
+ footer .bottom .first
+ {
+  font-size:12px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+font-size:20px;
+ }
+
+@keyframes venum
+{
+
+0%
+{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+}
+
+
+footer .quality div i
+{
+  font-size:25px;
+  margin-left:-0.5px;
+
+}
+
+footer .quality div
+{
+  margin-left: 90px;
+}
+
+footer .quality div p
+{
+  font-size:12px;
+}
+
+
+@media screen and (max-width:526px)
+{
+
+
+footer .quality div i
+{
+  font-size:25px;
+  margin-left:-0.5px;
+
+}
+
+footer .quality div
+{
+  margin-left:80px;
+}
+
+footer .quality div p
+{
+  font-size:10px;
+}
+
+}
+
+
+
+
+
+
+@media screen and (max-width:510px)
+{
+header>.mainnav>.h2>h2
+{
+   font-size:0.8em;
+   padding-left:20px;
+
+}
+
+header>.mainnav>.nav>ul
+{
+  padding-left: 40px;
+}
+
+header>.mainnav>.nav>ul>li
+{
+   font-size:11px;
+   letter-spacing:0.6px;
+}
+
+
+
+.afterhead h3
+{
+font-size:1.4em;
+margin:-150px 0px 30px 0px;
+width:50%;
+height:20px;
+padding-top:20px;
+}
+
+.afterhead .shoes figure 
+{
+
+  width:70%;
+  height:300px;
+  
+  margin-bottom:30px;
+  
+  margin-left:65px;
+  
+
+  }
+
+  .afterhead .shoes figure img
+  {
+    width:100%;
+    height:200px;
+  }
+
+  #afterhead2 h3
+  {
+    margin-top:30px;
+  }
+
+  #afterhead3 h3
+  {
+   margin-top:30px;
+  }
+
+
+  footer .bottom #help
+  {
+ margin-bottom:15px;
+  }
+
+ 
+ footer .bottom .first
+ {
+  font-size:12px;
+ }
+
+ footer .footer2 i 
+ {
+  font-size: 30px;
+ }
+
+ footer .footer2 h3
+ {
+  font-size:20px;
+ }
+
+
+footer .quality 
+{
+  background-color:lightgrey;
+}
+
+
+@keyframes venum
+{
+
+0%
+{
+background-image: url('homebanner/homeban1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+30%
+{
+background-image: url('homebanner/homeban2.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+
+}
+60%
+{
+background-image: url('homebanner/homeban3.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+100%
+{
+background-image: url('slide1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 60%;
+}
+}
+
+
+
+
+
+/*home media query ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
